@@ -1,1 +1,39 @@
 /* header.css */
+.header{
+  background-color: #ffffff;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+    transform: translate(-50%);
+    width: calc(100% - 40px);
+    border-radius: 15px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px ;
+}
+
+.logo img{
+  height: 40px;
+}
+
+.nav-center ul{
+  display: flex;
+  gap: 2.5rem;
+}
+
+.nav-secondary ul{
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.nav-center a:hover,
+.nav-secondary a:hover{
+  color: #7c3aed;
+}
+
+.nav-secondary a:hover img{
+  opacity: 0.8;
+}
