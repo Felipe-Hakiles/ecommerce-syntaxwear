@@ -22,7 +22,7 @@ time, mark, audio, video) {
 }
 
 :where(body) {
-  min-height: 100vh;
+  
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
@@ -33,7 +33,7 @@ time, mark, audio, video) {
 
 :where(img, picture, video, canvas, svg) {
   display: block;
-  max-width: 100%;
+  
 }
 
 :where(input, button, textarea, select) {
